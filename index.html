@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>ProRoteiro AI - Gerador Estratégico de Vídeos</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Plataforma de inteligência artificial para criação de roteiros virais e estratégicos para Reels, TikTok e Shorts." />
+    <meta name="keywords" content="roteiro, inteligência artificial, reels, tiktok, marketing digital, automação" />
+    <meta name="author" content="IA Technologies" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ProRoteiro AI - Inovação sem Atrito" />
+    <meta property="og:description" content="Gere roteiros de alta conversão em segundos com o poder da IA." />
+    <meta property="og:image" content="https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/bolt/default/48px.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'pure-white': '#FFFFFF',
+              'innovation-blue': '#0EA5E9',
+              'deep-infinity': '#0284C7',
+              'soft-sky': '#F0F9FF',
+              'ink-black': '#0F172A',
+              'slate-gray': '#64748B',
+              'alert-red': '#EF4444',
+              'success-green': '#22C55E',
+              'border-gray': '#E2E8F0',
+            },
+            fontFamily: {
+              heading: ['Plus Jakarta Sans', 'sans-serif'],
+              body: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #FFFFFF;
+        color: #0F172A;
+        font-family: 'Inter', sans-serif;
+        -webkit-tap-highlight-color: transparent;
+        overflow-x: hidden;
+      }
+      
+      .infinity-path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: draw 3s linear infinite;
+      }
+
+      @keyframes draw {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .masonry-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      @media (min-width: 640px) {
+        .masonry-grid {
+          grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+          gap: 1.5rem;
+        }
+      }
+
+      /* Custom scrollbar para um visual mais premium */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
